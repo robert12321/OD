@@ -1,0 +1,37 @@
+Challenge materialy:
+https://github.com/udacity/didi-competition
+
+Ranking i dataset:
+http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+https://github.com/yanii/kitti-pcl/blob/master/KITTI_README.TXT
+
+Wybrane rozwi¹zanie to F-PointNet (najlepsze z opensourcowych w wykrywaniu pieszych i rowerzystów; w wykrywaniu samochodów zajmuje 7 miejsce):
+https://github.com/charlesq34/frustum-pointnets
+https://arxiv.org/pdf/1711.08488.pdf
+http://stanford.edu/~rqi/frustum-pointnets/
+
+Rozwi¹zanie siê odwo³uje do:
+http://stanford.edu/~rqi/pointnet/
+https://github.com/charlesq34/pointnet
+https://arxiv.org/pdf/1706.02413.pdf
+http://stanford.edu/~rqi/pointnet2/
+https://github.com/charlesq34/pointnet2
+https://arxiv.org/pdf/1612.00593.pdf
+
+ROS:
+
+
+https://answers.ros.org/question/265036/point-cloud-data-analysis-from-ros-bag-info-required/
+
+https://answers.ros.org/question/202787/using-pointcloud2-data-getting-xy-points-in-python/
+http://wiki.ros.org/laser_geometry
+http://www.clearpathrobotics.com/assets/guides/ros/Converting%20ROS%20bag%20to%20CSV.html
+
+Binarne:
+https://stackoverflow.com/questions/42156900/how-to-convert-a-binary-file-to-a-numpy-file
+https://stackoverflow.com/questions/10535687/write-a-raw-binary-file-with-numpy-array-data
+https://stackoverflow.com/questions/367565/how-do-i-build-a-numpy-array-from-a-generator
+
+XML:
+
+https://stackoverflow.com/questions/1912434/how-do-i-parse-xml-in-python

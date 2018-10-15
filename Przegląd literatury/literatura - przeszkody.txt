@@ -1,0 +1,29 @@
+https://arxiv.org/pdf/1612.06573.pdf
+{
+	https://arxiv.org/pdf/1609.04653.pdf
+	http://clementcreusot.com/publications/papers/creusot2015-IV.pdf
+	http://www.ingentaconnect.com/contentone/ist/ei/2017/00002017/00000019/art00010?crawler=true&mimetype=application/pdf
+	{
+		http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf
+		https://arxiv.org/pdf/1502.06344.pdf
+		https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2B_011.pdf
+	}
+	http://openaccess.thecvf.com/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf
+}
+http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Garnett_Real-Time_Category-Based_and_ICCV_2017_paper.pdf
+{
+	http://www.lelaps.de/papers/badino_dagm09.pdf
+	https://arxiv.org/pdf/1703.06870.pdf
+	http://www.lookingatpeople.com/Publications/iv16_cyclist_benchmark.pdf
+	http://www.cvlibs.net/projects/autonomous_vision_survey/literature/Oliveira2016IROS.pdf
+	https://arxiv.org/pdf/1612.07695.pdf
+}
+
+http://www.bmva.org/bmvc/2015/papers/paper109/paper109.pdf
+
+http://people.inf.ethz.ch/sattlert/publications/Haene2015IROS.pdf
+http://icoci.cms.net.my/PROCEEDINGS/2017/Pdf_Version_Chap04e/PID105-235-242e.pdf
+http://journal.saemalaysia.org.my/wp-content/uploads/2017/09/JSAEM-1-3-Herman.pdf
+{
+	https://arxiv.org/pdf/1607.00971.pdf
+}
