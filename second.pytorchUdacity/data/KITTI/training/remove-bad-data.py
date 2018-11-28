@@ -37,8 +37,10 @@ listOfBinFiles.sort()
 i = 0
 prog_bar = ProgressBar()
 prog_bar.start(len(listOfBinFiles))
-with open("./dict_removed2.txt","w") as dictf:
+#Dict = {listOfBinFiles[0]:'0'}
+with open("./dict_removed.txt","a") as dictf:
     for f in listOfBinFiles:
+        #Dict[f] = ("%06d" % i)
         dictf.write(("%06d" % i)+" "+f+"\n")
         os.system("mv -f "+lab+f+".txt "+lab+("%06d" % i)+".txt ")
         os.system("mv -f "+vel+f+".bin "+vel+("%06d" % i)+".bin ")

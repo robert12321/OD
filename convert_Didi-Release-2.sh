@@ -78,7 +78,7 @@ do
   echo "Directory $dir: Copying images to second.pytorchUdacity/data/KITTI/$SET/image_2/"
   for dirr in ./TRACKLETS/*  
   do
-    echo "sudo cp "$dirr"/camera/*.jpg ../../../second.pytorchUdacity/data/KITTI/$SET/image_2/"
+    echo "cp "$dirr"/camera/*.jpg ../../../second.pytorchUdacity/data/KITTI/$SET/image_2/"
     cp "$dirr"/camera/*.jpg ../../../second.pytorchUdacity/data/KITTI/"$SET"/image_2/
   done
 
@@ -95,11 +95,11 @@ done
 echo "Moving to second.pytorchUdacity/data/KITTI/testing/"
 cd ../../second.pytorchUdacity/data/KITTI/testing/
 
+
+python2 KITTI_Udacity_inds.py
 echo "Creating calibration files"
 python2 create_calib.py 
-
 echo "Renaming files to KITTI indices"
-python2 KITTI_Udacity_inds.py
 python2 trans_inds_to_KITTI.py
 python2 test_inds.py
 
@@ -108,10 +108,12 @@ python2 test_inds.py
 echo "Moving to second.pytorchUdacity/data/KITTI/training/"
 cd ../training/
 
+
+python2 KITTI_Udacity_inds.py
 echo "Creating calibration files"
 python2 create_calib.py 
-
 echo "Renaming files to KITTI indices"
-python2 KITTI_Udacity_inds.py
 python2 trans_inds_to_KITTI.py
 python2 split_train.py 0
+
+
